@@ -90,7 +90,7 @@ window
          const card = document.createElement("div");
          card.className = "md:flex bg-white rounded-lg p-6 hover:bg-gray-300";
          card.append(imagen, priceAndTitle);
-
+         card.style.width = "60%";
       
 
         const container = document.createElement('div')
