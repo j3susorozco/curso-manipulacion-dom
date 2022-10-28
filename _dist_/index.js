@@ -9,6 +9,11 @@ y lo que hacemos es agregarle atraves de  un template string
 el resto de la url que teniamos en el fetch*/
 
 const appNode = document.querySelector('#app')
+appNode.addEventListener('click', (event)=>{
+    if(event.target.nodeName === "H2"){
+        window.alert("Hola")
+    }
+})
 
 // Intl
  // 1.- Format fechas
